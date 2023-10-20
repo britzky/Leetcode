@@ -5,6 +5,7 @@ class Solution(object):
         :rtype: List[List[str]]
         """
         result = defaultdict(list) # map charCount to list of anagrams
+        print(result)
 
         for s in strs:
             count = [0] * 26

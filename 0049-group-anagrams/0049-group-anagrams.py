@@ -4,18 +4,15 @@ class Solution(object):
         :type strs: List[str]
         :rtype: List[List[str]]
         """
-        result = defaultdict(list) # map charCount to list of anagrams
-        print(result)
 
+        # create a list of 26 0's
+        # initialize a hashmap
+        # loop through strs
+        res = defaultdict(list)
         for s in strs:
             count = [0] * 26
             for c in s:
                 count[ord(c) - ord("a")] += 1
-            
-            result[tuple(count)].append(s)
-        return result.values()
-
-
-
-            
+            res[tuple(count)].append(s)
+        return res.values()
         

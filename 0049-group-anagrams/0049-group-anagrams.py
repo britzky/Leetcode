@@ -4,15 +4,16 @@ class Solution(object):
         :type strs: List[str]
         :rtype: List[List[str]]
         """
-
-        # create a list of 26 0's
-        # initialize a hashmap
+        # initalize a result hashmap as a default dict that holds lists as the value
         # loop through strs
-        res = defaultdict(list)
-        for s in strs:
+        # initlialize a count array filled with 26 0's
+        # loop through the chars of strs
+        # insert the order of the current char - the order of 'a' into the count array
+        result_map = defaultdict(list)
+        for string in strs:
             count = [0] * 26
-            for c in s:
-                count[ord(c) - ord("a")] += 1
-            res[tuple(count)].append(s)
-        return res.values()
+            for char in string:
+                count[ord(char) - ord('a')] += 1
+            result_map[tuple(count)].append(string)
+        return result_map.values()
         

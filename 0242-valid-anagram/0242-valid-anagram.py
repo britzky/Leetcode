@@ -5,21 +5,22 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        char_map = {}
         if len(s) != len(t):
             return False
+
+        char_map = {}
+        
         for i in range(len(s)):
             if s[i] in char_map:
                 char_map[s[i]] += 1
-            else: 
+            else:
                 char_map[s[i]] = 1
             if t[i] in char_map:
                 char_map[t[i]] -= 1
-            else: 
-                char_map[t[i]] = -1
-        values = char_map.values()
-
-        for i in range(len(values)):
-            if values[i] != 0:
+            else:
+                char_map[t[i]] = -1 
+        
+        for value in char_map.values():
+            if value != 0:
                 return False
         return True

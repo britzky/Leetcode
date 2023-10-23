@@ -4,12 +4,10 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
-
-        count = {}
+        num_map = {}
         for num in nums:
-            if num in count:
+            if num in num_map:
                 return True
             else:
-                count[num] = True
-        return False
-            
+                num_map[num] = True
+        return False  

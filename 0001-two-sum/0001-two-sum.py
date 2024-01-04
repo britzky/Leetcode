@@ -1,16 +1,14 @@
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        hash_map = {}
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        result = []
+        values = {}
         for i in range(len(nums)):
-            compliment = target - nums[i]
-            if compliment in hash_map:
-                return [hash_map[compliment], i]
+            needed_value = target - nums[i]
+            if nums[i] in values:
+                result.append(i)
+                result.append(values[nums[i]])
             else:
-                hash_map[nums[i]] = i
+                values[needed_value] = i
+        return result
 
-
+        

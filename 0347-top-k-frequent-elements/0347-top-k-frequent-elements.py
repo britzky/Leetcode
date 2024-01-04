@@ -1,27 +1,15 @@
-class Solution(object):
-    def topKFrequent(self, nums, k):
-        m = {}
-        r = []
-        for n in nums:
-            if n in m:
-                m[n] += 1
-            else:
-                m[n] = 1
-
-        for j in range(k):
-            max_freq = 0
-            max_freq_num = 0
-            for key, value in m.items():
-                if value > max_freq:
-                    max_freq = value
-                    max_freq_num = key
-            r.append(max_freq_num)
-            m.pop(max_freq_num)
-
-        return r
-    
-
-
-
-
+class Solution:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        freq = [[] for i in range(len(nums) + 1)]
+        count = {}
+        for num in nums:
+            count[num] = count.get(num, 0) + 1
+        for key,value in count.items():
+            freq[value].append(key)
+        result = []
+        for i in range(len(freq) -1, -1, -1):
+            for j in freq[i]:
+                result.append(j)
+                if len(result) == k:
+                    return result
         

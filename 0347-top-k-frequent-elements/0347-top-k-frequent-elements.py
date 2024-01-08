@@ -4,12 +4,12 @@ class Solution:
         count = {}
         for num in nums:
             count[num] = count.get(num, 0) + 1
-        for key,value in count.items():
+        for key, value in count.items():
             freq[value].append(key)
-        result = []
-        for i in range(len(freq) -1, -1, -1):
+        res = []
+        for i in range(len(freq) -1, 0, -1):
             for j in freq[i]:
-                result.append(j)
-                if len(result) == k:
-                    return result
+                res.append(j)
+                if len(res) == k:
+                    return res
         

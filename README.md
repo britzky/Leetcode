@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/britzky/Leetcode/tree/master/0075-sort-colors) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/britzky/Leetcode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 ## Stack
 |  |
@@ -35,4 +36,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/britzky/Leetcode/tree/master/0023-merge-k-sorted-lists) |
+## Two Pointers
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/britzky/Leetcode/tree/master/0075-sort-colors) |
+## Sorting
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/britzky/Leetcode/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->

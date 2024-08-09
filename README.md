@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/britzky/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/britzky/Leetcode/tree/master/0075-sort-colors) |
 | [0792-binary-search](https://github.com/britzky/Leetcode/tree/master/0792-binary-search) |
 | [0948-sort-an-array](https://github.com/britzky/Leetcode/tree/master/0948-sort-an-array) |
@@ -65,5 +66,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/britzky/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0792-binary-search](https://github.com/britzky/Leetcode/tree/master/0792-binary-search) |
+## Matrix
+|  |
+| ------- |
+| [0074-search-a-2d-matrix](https://github.com/britzky/Leetcode/tree/master/0074-search-a-2d-matrix) |
 <!---LeetCode Topics End-->

@@ -11,6 +11,7 @@ public class Solution extends GuessGame {
     public int guessNumber(int n) {
         int l = 1;
         int r = n;
+
         while(true) {
             int m = l + (r - l) / 2;
             int myGuess = guess(m);

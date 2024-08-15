@@ -14,13 +14,11 @@
  * }
  */
 class Solution {
-
-    public TreeNode minNode(TreeNode root) {
-        TreeNode curr = root;
-        while (curr != null && curr.left != null){
-            curr = curr.left;
+    private TreeNode minNode(TreeNode root) {
+        while (root != null && root.left != null) {
+            root = root.left;
         }
-        return curr;
+        return root;
     }
 
     public TreeNode deleteNode(TreeNode root, int key) {
@@ -28,10 +26,10 @@ class Solution {
             return null;
         }
 
-        if (key > root.val) {
-            root.right = deleteNode(root.right, key);
-        } else if (key < root.val) {
+        if (root.val > key) {
             root.left = deleteNode(root.left, key);
+        } else if (root.val < key) {
+            root.right = deleteNode(root.right, key);
         } else {
             if (root.left == null) {
                 return root.right;

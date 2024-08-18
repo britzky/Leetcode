@@ -14,10 +14,12 @@
  * }
  */
 class Solution {
+
     private TreeNode minNode(TreeNode root) {
         while (root != null && root.left != null) {
             root = root.left;
         }
+
         return root;
     }
 

@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/britzky/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [1802-number-of-students-unable-to-eat-lunch](https://github.com/britzky/Leetcode/tree/master/1802-number-of-students-unable-to-eat-lunch) |
 ## Queue
 |  |
@@ -84,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/britzky/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0450-delete-node-in-a-bst](https://github.com/britzky/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/britzky/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/britzky/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
@@ -96,7 +98,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/britzky/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0450-delete-node-in-a-bst](https://github.com/britzky/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/britzky/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/britzky/Leetcode/tree/master/0784-insert-into-a-binary-search-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/britzky/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 <!---LeetCode Topics End-->

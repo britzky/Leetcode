@@ -20,13 +20,12 @@ class Solution {
         }
         return root;
     }
-
     public TreeNode deleteNode(TreeNode root, int key) {
         if (root == null) {
             return null;
         }
 
-        if (root.val < key){
+        if (root.val < key) {
             root.right = deleteNode(root.right, key);
         } else if (root.val > key) {
             root.left = deleteNode(root.left, key);

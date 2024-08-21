@@ -21,9 +21,7 @@ class Solution {
         return root;
     }
     public TreeNode deleteNode(TreeNode root, int key) {
-        if (root == null) {
-            return null;
-        }
+        if (root == null) return null;
 
         if (root.val < key) {
             root.right = deleteNode(root.right, key);
